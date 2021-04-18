@@ -3,7 +3,12 @@ guid: 57ad0031da756064198201b5c1ffe5ba
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - targetGrid: {instanceID: 0}
+  - highlight: {fileID: 11400000, guid: 872c23f5176426f4db2d554055535ecd, type: 2}
+  - blockerPanel: {instanceID: 0}
+  - finishText: {instanceID: 0}
+  - wallBlock: {fileID: 11400000, guid: 4e7c5475d6dda444aab539a7c784a60b, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

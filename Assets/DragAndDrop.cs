@@ -22,6 +22,7 @@ public class DragAndDrop : MonoBehaviour
     BoundsInt mazeBounds;
     public Image blockerPanel;
     public Text finishText;
+    public Tile wallBlock;
 
     private void Start()
     {
