@@ -1,2 +1,2 @@
 # Stain Remakes
-A recreation (in Unity) of the Weather Node maze puzzle from Among Us.
+A recreation (in Unity) of the maze from the Weather Node task from Among Us.
