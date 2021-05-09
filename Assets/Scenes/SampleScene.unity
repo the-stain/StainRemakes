@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 333717723}
   - component: {fileID: 333717722}
   m_Layer: 0
-  m_Name: Grid
+  m_Name: WeatherNodeGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2177,7 +2177,7 @@ GameObject:
   - component: {fileID: 1844240627}
   - component: {fileID: 1844240626}
   m_Layer: 0
-  m_Name: Grid
+  m_Name: BlocksOverlayGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2399,11 +2399,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57ad0031da756064198201b5c1ffe5ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetGrid: {fileID: 1276425010}
   highlight: {fileID: 11400000, guid: 872c23f5176426f4db2d554055535ecd, type: 2}
+  wallBlock: {fileID: 11400000, guid: 4e7c5475d6dda444aab539a7c784a60b, type: 2}
+  targetGrid: {fileID: 1276425010}
   blockerPanel: {fileID: 389085417}
   finishText: {fileID: 535072380}
-  wallBlock: {fileID: 11400000, guid: 4e7c5475d6dda444aab539a7c784a60b, type: 2}
 --- !u!212 &2065261574
 SpriteRenderer:
   m_ObjectHideFlags: 0
