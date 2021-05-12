@@ -1,6 +1,8 @@
 # Project Guide: Weather Node Puzzle
 
-Hey there! This guide walks through the entire project and explains the hows and whys of each of the major parts. All non-script points of interest are broken down here, while the scripts themselves contain comments that elaborate on the code inside.
+Hey there! This guide walks through the entire project and explains the hows and whys of each of the major parts. All non-script points of interest are broken down here, while the scripts themselves contain comments that elaborate on the code inside. 
+
+**BE WARNED: the code is terrible and I currently have no plans to change it.** If you have questions or want clarification on anything in the project, open up an issue and I'll see what I can do. You are also free to leave suggestions, but I probably won't see what I can do about those at all. I'll just read them and think, "Well, that's nice to know".
 
 ### Main Scripts: WeatherNodeGen.cs,DragAndDrop.cs
 * When reading the comments in these scripts, start with WeatherNodeGen
@@ -13,11 +15,13 @@ Hey there! This guide walks through the entire project and explains the hows and
 
 ## Scene Hierarchy:
 WeatherNodeMarker:
+* The node that is dragged around in the maze
 * Is inactive by default so the player can’t drag it around until a maze is generated
 * Has DragAndDrop.cs attached to it
 * Has a BoxCollider2D for OnMouseDrag() in DragAndDrop.cs
 
 Canvas:
+* The UI canvas for the maze-gen buttons
 * Uses Screen Space - Overlay as its render mode. Adjusting anything in this canvas was difficult since I didn’t know how (or if) I could control the tilemaps’ positions; I ended up having to trial-and-error my way to a configuration that looked ‘good enough’ at most 16:9 resolutions. I was hoping to be able to control the tilemaps as if they were UI objects to ensure that they stayed in place on screen (and below the button panel)
 * Thinking back on this, I wonder if I could just replace the transform component of the tilemaps with a RectTransform (which the UI elements use for their positioning)?
 * Thinking further, I think this is a sign that I don’t really “get” how tilemaps work just yet
